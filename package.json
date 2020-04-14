@@ -1,0 +1,33 @@
+{
+  "name": "ndat",
+  "version": "0.0.1",
+  "description": "A file format to package Node.JS packages and distribute them quickly and easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floffah/ndat.git"
+  },
+  "keywords": [
+    "ndat",
+    "dat",
+    "node",
+    "nodejs",
+    "distributer",
+    "distribution",
+    "package",
+    "dist",
+    "send"
+  ],
+  "author": "Floffah",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Floffah/ndat/issues"
+  },
+  "homepage": "https://github.com/Floffah/ndat#readme",
+  "dependencies": {
+    "charset-detector": "0.0.2"
+  }
+}
