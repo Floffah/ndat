@@ -41,7 +41,7 @@ Here is a list of arguments. You can also put these in a configuration file and 
 | \-\-no\-chunks / \-n | "chunks": true\|false | Don't parse files that don't use the utf8 charset into buffer chunk files\. Put their buffer straight into an info file\. | true |
 |  | "exclude":\["pattern"\] | Pattern of files to exclude\. | \["node\_modules/\*", "ndat/\*", "dist/\*"\] |
 | \-\-temp / \-t \<path\> | "temp": "path/to/temp/folder" | Specify the directory to use for temp files\. | \./temp |
-| <path> | "in": "\." | The root directory \(containing a package\.json\) that should be used to build | \. \(IF USING CONFIG\) |
+| \<path\> | "in": "\." | The root directory \(containing a package\.json\) that should be used to build | \. \(IF USING CONFIG\) |
 
 ## Future Plans
 1. Make a way for you to be able to require an ndat file in your project without decompiling it.
