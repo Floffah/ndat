@@ -1,0 +1,6 @@
+{
+  "output": "dist/ndat.dat",
+  "chunks": false,
+  "exclude": ["examples/*","node_modules/*", "ndat/*", "dist/*"],
+  "temp": "./temps"
+}

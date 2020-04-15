@@ -2,7 +2,7 @@
   "name": "ndat",
   "version": "0.0.1",
   "description": "A file format to package Node.JS packages and distribute them quickly and easily.",
-  "main": "index.js",
+  "main": "ndat.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +28,11 @@
   },
   "homepage": "https://github.com/Floffah/ndat#readme",
   "dependencies": {
-    "charset-detector": "0.0.2"
+    "charset-detector": "0.0.2",
+    "draftlog": "^1.0.12",
+    "yargs": "^15.3.1"
+  },
+  "bin": {
+    "ndat": "./ndat.js"
   }
 }
