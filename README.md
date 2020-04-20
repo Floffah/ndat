@@ -1,4 +1,4 @@
-# n.dat
+# ndat
 
 I'm not good with readme files so im just gonna write how to use it.
 
